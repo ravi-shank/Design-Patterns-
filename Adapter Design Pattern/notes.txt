@@ -1,0 +1,12 @@
+Adapter Design Pattern
+============================================
+This is a structural design pattern in which a class called adapter class acts as a bridge between two imcompatible interfaces.
+This pattern involves a single class called adapter which is responsible to join functionalities of two independent or incompatible interfaces.
+
+example:
+suppose a client use to interact with an interface(legacy interface) which use to do some task. Now due to somem reason we have
+changed the implementaion logic (may be we had to optimize the legacy code). But the client used to interact with the legacy code
+but we want to run the optimize interface yet keeping the client way of using the legacy interface same.
+
+In this we will give client the same legacy interface but will implement the new code via adapter class.
+Adapter class: will make request to the adapter by calling a method on it using target interface;
