@@ -1,0 +1,18 @@
+FACTORY DESIGN PATTERN
+======================================
+
+In factory design pattern, we create object without exposing the logic to client and client uses the same interface to create the new objects.
+
+Features:
+----------------
+1. There is one static method(called factory method) which creates and returns the type of object client wants.
+2. If another object of same type is wanted by user then a new object is created and provided to client.
+
+
+Our aim is to decouple the selection of type of object from client . It is at library where it should be handled the 
+creation of object based on type, not at the client side.
+
+Client should just pass the type it need and must get the type of object returned from the factory class.
+Client should be responsible for destructing the factory object inside its destructor.
+
+

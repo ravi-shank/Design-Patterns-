@@ -1,0 +1,21 @@
+Singleton Design Pattern
+=======================================
+
+This is a type of creational design pattern where the creation of a class object is restricted. The singleton class has only one 
+object throughout the applicaiton's life.
+
+A single class has below properties
+1. A static object
+2. Private constructor- so that no clien tcan instantitate the singleton on its own.
+3. A globally accessible static method which returns the static object to the client when demanded.
+
+
+
+
+Early instantiation
+--------------------------------
+The Singleton class is instattiated beforehand only, means even client doesn't demand the object.
+
+Late instantiation
+----------------------------------
+Class in instantiated when required.
