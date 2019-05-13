@@ -1,0 +1,10 @@
+ITERATOR DESIGN PATTERN
+====================================
+This is a behavioural design pattern where we provide a way for a collection object to be iterated without letting the
+client to know about the iterator logic
+
+The iterator pattern allow us to:
+------------------------------------------
+a) access contents of a collection without exposing its internal structure.
+b) support multiple simultaneous traversals of a collection.
+c) provide a uniform interface for traversing different collection.
